@@ -1,86 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youssef Ahmed Hussein Mohamed - CV Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico"> </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرة ذاتية - يوسف أحمد حسين محمد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .skills, .courses, .languages {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .courses li, .languages li {
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
 <body>
-  <header>
-    <h1>Youssef Ahmed Hussein Mohamed</h1>
-    <p class="job-title">IT Professional | Project Management</p>
-  </header>
+    <div class="container">
+        <header>
+            <img src="path/to/your/image.jpg" alt="صورة شخصية">
+            <h1>يوسف أحمد حسين محمد</h1>
+        </header>
 
-  <main>
-    <section class="about-me">
-      <h2>About Me</h2>
-      <p>An IT professional with a background in channels project roles, seeking a challenging opportunity to utilize advanced computer skills, including hardware, software, and Microsoft Office Suite. Proven expertise in IT support, video editing with Adobe Premiere Pro, database management, and word processing. Experience in educational television programs has fostered strong analytical skills and the ability to work effectively with complex systems and tasks.</p>
-    </section>
+        <section>
+            <h2>التعليم</h2>
+            <p>كلية التجارة - جامعة حلوان</p>
+            <p>سنة التخرج: 2021</p>
+            <p>التقييم العام: جيد</p>
+        </section>
 
-    <section class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <h3>Faculty of Commerce</h3>
-          <p>Helwan University (Graduation Year: 2021)</p>
-        </li>
-        <li>
-          <h3>Courses</h3>
-          <ul>
-            <li>International Computer Driving Licence (ICDL)</li>
-            <li>Windows</li>
-            <li>PowerPoint</li>
-            <li>Microsoft Word</li>
-            <li>Excel</li>
-            <li>Adobe Premiere Pro</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
+        <section>
+            <h2>المهارات</h2>
+            <ul class="skills">
+                <li><i class="fas fa-check"></i> حل المشكلات</li>
+                <li><i class="fas fa-check"></i> التفكير التحليلي</li>
+                <li><i class="fas fa-check"></i> إدارة الوقت</li>
+                <li><i class="fas fa-check"></i> التكيف</li>
+                <li><i class="fas fa-check"></i> مهارات التواصل</li>
+                <li><i class="fas fa-check"></i> الانتباه للتفاصيل</li>
+                <li><i class="fas fa-check"></i> دعم تكنولوجيا المعلومات وإدارة المشاريع</li>
+            </ul>
+        </section>
 
-    <section class="work-skills">
-      <h2>Work Skills</h2>
-      <ul>
-        <li><i class="fas fa-code"></i> Proficient in IT Support and Project Management</li>
-        <li><i class="fas fa-wrench"></i> Troubleshooting hardware and software issues</li>
-        <li><i class="fas fa-database"></i> Managing and maintaining databases</li>
-        <li><i class="fas fa-headset"></i> Providing technical support to users</li>
-      </ul>
-    </section>
+        <section>
+            <h2>الدورات</h2>
+            <ul class="courses">
+                <li><i class="fas fa-book"></i> الرخصة الدولية لقيادة الحاسب الآلي (ICDL)</li>
+                <li><i class="fas fa-book"></i> ويندوز</li>
+                <li><i class="fas fa-book"></i> باوربوينت</li>
+                <li><i class="fas fa-book"></i> مايكروسوفت وورد</li>
+                <li><i class="fas fa-book"></i> إكسل</li>
+                <li><i class="fas fa-book"></i> أدوبي بريمير برو</li>
+            </ul>
+        </section>
 
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li><i class="fas fa-briefcase"></i> Skilled in Microsoft Office Suite and Adobe Premiere Pro</li>
-        <li><i class="fas fa-file-alt"></i> Creating and editing documents using Microsoft Word</li>
-        <li><i class="fas fa-table"></i> Building and managing Excel spreadsheets</li>
-        <li><i class="fas fa-chart-line"></i> Designing presentations with PowerPoint</li>
-        <li><i class="fas fa-film"></i> Video editing with Adobe Premiere Pro</li>
-        <li><i class="fas fa-lightbulb"></i> Problem-solving</li>
-        <li><i class="fas fa-chart-pie"></i> Analytical thinking</li>
-        <li><i class="fas fa-clock"></i> Time management</li>
-        <li><i class="fas fa-people-arrows"></i> Adaptability</li>
-        <li><i class="fas fa-comments"></i> Communication skills</li>
-        <li><i class="fas fa-eye"></i> Attention to detail</li>
-      </ul>
-    </section>
+        <section>
+            <h2>الخبرة العملية</h2>
+            <p>عملت في قناة "مدرستنا" التعليمية:</p>
+            <ul>
+                <li>تحقيق بيئة عمل داعمة لحل المشكلات التقنية.</li>
+                <li>إكمال صيانة روتينية لأجهزة التسجيل بالفيديو.</li>
+                <li>قيادة اجتماعات الفريق لمناقشة تحديثات المشروع.</li>
+                <li>إدارة المخزون من معدات تكنولوجيا المعلومات واللوازم.</li>
+            </ul>
+        </section>
 
-    <section class="work-experience">
-      <h2>Work Experience</h2>
-      <ul>
-        <li>
-          <h3>Madrasetna Educational Channel</h3>
-          <p>IT Support Specialist</p>
-          <ul>
-            <li>Managed software updates for educational tools.</li>
-            <li>Identified user requirements for technology improvements.</li>
-            <li>Evaluated IT infrastructure for performance efficiency.</li>
-            <li>Led training sessions for staff on software use.</li>
-            <li>Completed system troubleshooting for technical issues.</li>
-            <li>Achieved a conducive work environment to help meet project deadlines.</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Majd TV</h3>
-          <p
+        <section>
+            <h2>اللغات</h2>
+            <ul class="languages">
+                <li><i class="fas fa-globe"></i> العربية: اللغة الأم</li>
+                <li><i class="fas fa-globe"></i> الإنجليزية: جيد</li>
+            </ul>
+        </section>
+
+        <footer class="contact-info">
+            <div>
+                <p>البريد الإلكتروني: <a href="mailto:Ya9260465@gmail.com">Ya9260465@gmail.com</a></p>
+                <p>رقم الهاتف: +20 1554759154</p>
+                <p>العنوان: مدينة العبور، القليوبية</p>
+                <p>تاريخ الميلاد: 15/7/1999</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
