@@ -7,58 +7,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            background-color: #f0f0f0;
         }
         .container {
             max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         header {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            background: #0056b3;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
         }
-        header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
-        h1 {
-            margin: 10px 0;
-            color: #333;
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        .section {
+            margin-bottom: 30px;
         }
         h2 {
             color: #0056b3;
             border-bottom: 2px solid #0056b3;
             padding-bottom: 5px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .icon {
-            margin-right: 10px;
-            color: #0056b3;
+            margin-bottom: 15px;
         }
         .contact-info {
             display: flex;
             justify-content: space-between;
             padding: 10px 0;
+            font-size: 1.1em;
         }
-        .skills, .courses, .languages {
+        .contact-info i {
+            color: #0056b3;
+            margin-right: 10px;
+        }
+        .list {
             list-style: none;
             padding: 0;
         }
-        .skills li, .courses li, .languages li {
+        .list li {
             background: #e9ecef;
             margin: 5px 0;
             padding: 10px;
             border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .list li:hover {
+            background: #d1d1d1;
         }
     </style>
 </head>
@@ -66,22 +75,21 @@
 
 <div class="container">
     <header>
-        <img src="https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg" alt="https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg">
         <h1>Youssef Ahmed Hussein Mohamed</h1>
-        <p>An IT professional with a background in channels project roles.</p>
+        <p>An IT professional with expertise in channels project roles</p>
     </header>
 
     <div class="section">
         <h2>Contact</h2>
         <div class="contact-info">
             <div>
-                <i class="fas fa-envelope icon"></i> <span>Ya9260465@gmail.com</span><br>
-                <i class="fas fa-phone icon"></i> <span>+20 1554759154</span><br>
-                <i class="fas fa-map-marker-alt icon"></i> <span>Obour City, Qalyubia</span><br>
-                <i class="fas fa-birthday-cake icon"></i> <span>Date of Birth: 15/7/1999</span>
+                <i class="fas fa-envelope"></i> <span>Ya9260465@gmail.com</span><br>
+                <i class="fas fa-phone"></i> <span>+20 1554759154</span><br>
+                <i class="fas fa-map-marker-alt"></i> <span>Obour City, Qalyubia</span><br>
+                <i class="fas fa-birthday-cake"></i> <span>Date of Birth: 15/7/1999</span>
             </div>
             <div>
-                <p></p>
+                <p>Graduation Year: 2021</p>
             </div>
         </div>
     </div>
@@ -95,7 +103,7 @@
     <div class="section">
         <h2>Work Experience</h2>
         <p>Worked at Majd TV:</p>
-        <ul>
+        <ul class="list">
             <li>Achieved a supportive work environment for technical troubleshooting.</li>
             <li>Completed routine maintenance on video tape recorders.</li>
             <li>Led team meetings to discuss project updates.</li>
@@ -103,7 +111,7 @@
             <li>Identified technical issues and provided solutions.</li>
         </ul>
         <p>Worked IT at Madrasetna Educational Channel:</p>
-        <ul>
+        <ul class="list">
             <li>Achieved a conducive work environment to help meet project deadlines.</li>
             <li>Completed system troubleshooting for technical issues.</li>
             <li>Led training sessions for staff on software use.</li>
@@ -115,7 +123,7 @@
 
     <div class="section">
         <h2>Skills</h2>
-        <ul class="skills">
+        <ul class="list">
             <li>Problem-solving</li>
             <li>Analytical thinking</li>
             <li>Time management</li>
@@ -128,7 +136,7 @@
 
     <div class="section">
         <h2>Courses</h2>
-        <ul class="courses">
+        <ul class="list">
             <li>International Computer Driving Licence (ICDL)</li>
             <li>Windows</li>
             <li>PowerPoint</li>
@@ -140,7 +148,7 @@
 
     <div class="section">
         <h2>Languages</h2>
-        <ul class="languages">
+        <ul class="list">
             <li>Arabic: Native language</li>
             <li>English: Good</li>
         </ul>
