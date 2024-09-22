@@ -7,72 +7,115 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: auto;
+            width: 80%;
+            max-width: 1200px;
+            margin: 30px auto;
             background: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
-        h1 {
+        header {
             text-align: center;
-            color: #333;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 10px 0;
+            color: #2c3e50;
         }
         .profile-img {
             display: block;
-            margin: 0 auto;
+            margin: 20px auto;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
             background-image: url('https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg');
             background-size: cover;
             background-position: center;
         }
-        section {
-            margin: 20px 0;
+        .section {
+            margin: 30px 0;
         }
         h2 {
-            border-bottom: 2px solid #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #34495e;
+            border-bottom: 2px solid #2c3e50;
             padding-bottom: 5px;
-            color: #555;
+        }
+        .contact-info i {
+            color: #2c3e50;
+            margin-right: 8px;
         }
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
-        li {
-            padding: 5px 0;
+        ul li {
+            margin-bottom: 8px;
+            font-size: 18px;
         }
-        .contact-info {
+        .contact-info, .skills ul, .experience ul {
             display: flex;
+            flex-wrap: wrap;
+        }
+        .contact-info div, .skills ul li, .experience ul li {
+            width: 50%;
+        }
+        .contact-info div {
+            margin-bottom: 10px;
+        }
+        .skills ul, .experience ul {
             justify-content: space-between;
-            margin: 10px 0;
         }
         .icon {
-            color: #4CAF50;
+            color: #16a085;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 0 0 10px 10px;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Youssef Ahmed Hussein Mohamed</h1>
-    <div class="profile-img"></div>
-    
-    <section>
+    <header>
+        <h1>Youssef Ahmed Hussein Mohamed</h1>
+        <div class="profile-img"></div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div><i class="fas fa-envelope icon"></i> Ya9260465@gmail.com</div>
+            <div><i class="fas fa-phone-alt icon"></i> +20 1554759154</div>
+            <div><i class="fas fa-map-marker-alt icon"></i> Obour City, Qalyubia</div>
+            <div><i class="fas fa-birthday-cake icon"></i> Date of Birth: 15/07/1999</div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section">
         <h2>Education</h2>
         <p>Faculty of Commerce, Helwan University</p>
         <p>Graduation Year: 2021</p>
     </section>
 
-    <section>
-        <h2>Work Skills</h2>
+    <!-- Skills Section -->
+    <section class="section skills">
+        <h2>Skills</h2>
         <ul>
             <li>Problem-solving</li>
             <li>Analytical thinking</li>
@@ -88,22 +131,14 @@
         </ul>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <div class="contact-info">
-            <span><i class="fas fa-envelope icon"></i> Ya9260465@gmail.com</span>
-            <span><i class="fas fa-phone-alt icon"></i> +20 1554759154</span>
-        </div>
-        <p>Obour City, Qalyubia</p>
-        <p>Date of Birth: 15/07/1999</p>
-    </section>
-
-    <section>
+    <!-- Professional Summary Section -->
+    <section class="section">
         <h2>Professional Summary</h2>
         <p>An IT professional with a background in channels project roles. Expertise has been developed in utilizing advanced computer skills, including hardware, software, and Microsoft Office Suite. Proficiency has been demonstrated in IT support, video editing with Adobe Premiere Pro, database management, and word processing. Experience in educational television programs has been gained, along with strong analytical skills and the ability to work effectively with complex systems and tasks.</p>
     </section>
 
-    <section>
+    <!-- Courses Section -->
+    <section class="section">
         <h2>Courses</h2>
         <ul>
             <li>International Computer Driving Licence (ICDL)</li>
@@ -115,7 +150,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Work Experience Section -->
+    <section class="section experience">
         <h2>Work Experience</h2>
         <h3>Worked at Majd TV</h3>
         <ul>
@@ -137,7 +173,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Languages Section -->
+    <section class="section">
         <h2>Languages</h2>
         <ul>
             <li>Arabic: Native language</li>
@@ -145,6 +182,10 @@
         </ul>
     </section>
 </div>
+
+<footer>
+    <p>&copy; 2024 Youssef Ahmed Hussein Mohamed</p>
+</footer>
 
 </body>
 </html>
