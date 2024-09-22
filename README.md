@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+git add index.html profile.jpg
+git commit -m "إضافة صورة شخصية وتحسين التصميم"
+git push origin main
