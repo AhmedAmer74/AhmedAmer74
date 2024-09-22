@@ -17,3 +17,6 @@ Here are some ideas to get you started:
 git add index.html profile.jpg
 git commit -m "إضافة صورة شخصية وتحسين التصميم"
 git push origin main
+git add index.html
+git commit -m "إضافة صورة شخصية وتحسين التصميم"
+git push origin main
