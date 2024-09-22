@@ -3,137 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youssef Ahmed Hussein Mohamed - CV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Youssef Ahmed Hussein Mohamed's CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #eaeaea;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            background-color: #f4f4f4;
         }
         .container {
             max-width: 800px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             margin: auto;
+            background: white;
             padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
             text-align: center;
-            color: #2980b9;
-        }
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2980b9;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-        }
-        p {
-            line-height: 1.6;
             color: #333;
         }
-        .profile-image {
+        .profile-img {
             display: block;
-            margin: 0 auto 20px;
+            margin: 0 auto;
             border-radius: 50%;
-            max-width: 150px;
+            width: 150px;
+            height: 150px;
+            background: #ccc;
         }
-        .contact-info, .skills, .languages {
-            margin-bottom: 20px;
+        section {
+            margin: 20px 0;
         }
-        .skills ul, .languages ul {
-            list-style: none;
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
             padding: 0;
         }
-        .skills li, .languages li {
-            background: #f2f2f2;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
+        li {
+            padding: 5px 0;
         }
-        .section {
-            margin-bottom: 30px;
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        .icon {
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Youssef Ahmed Hussein Mohamed</h1>
-        <img src="your-image-url.jpg" alt="Profile Image" class="profile-image">
 
-        <div class="section contact-info">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:Ya9260465@gmail.com">Ya9260465@gmail.com</a></p>
-            <p>Phone: +20 1554759154</p>
-            <p>Location: Obour City, Qalyubia</p>
-            <p>Date of Birth: 15/7/1999</p>
+<div class="container">
+    <h1>Youssef Ahmed Hussein Mohamed</h1>
+    <div class="profile-img"></div> <!-- Add your image source here -->
+    
+    <section>
+        <h2>Education</h2>
+        <p>Faculty of Commerce, Helwan University</p>
+        <p>Graduation Year: 2021</p>
+    </section>
+
+    <section>
+        <h2>Work Skills</h2>
+        <ul>
+            <li>Problem-solving</li>
+            <li>Analytical thinking</li>
+            <li>Time management</li>
+            <li>Adaptability</li>
+            <li>Communication skills</li>
+            <li>Attention to detail</li>
+            <li>Overall Rating: Good</li>
+            <li>Proficient in IT Support and Project Management</li>
+            <li>Troubleshooting hardware and software issues</li>
+            <li>Managing and maintaining databases</li>
+            <li>Providing technical support to users</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <span><i class="fas fa-envelope icon"></i> Ya9260465@gmail.com</span>
+            <span><i class="fas fa-phone-alt icon"></i> +20 1554759154</span>
         </div>
+        <p>Obour City, Qalyubia</p>
+        <p>Date of Birth: 15/07/1999</p>
+    </section>
 
-        <div class="section education">
-            <h2>Education</h2>
-            <p>Faculty of Commerce, Helwan University<br>Graduation Year: 2021</p>
-        </div>
+    <section>
+        <h2>Professional Summary</h2>
+        <p>An IT professional with a background in channels project roles. Expertise has been developed in utilizing advanced computer skills, including hardware, software, and Microsoft Office Suite. Proficiency has been demonstrated in IT support, video editing with Adobe Premiere Pro, database management, and word processing. Experience in educational television programs has been gained, along with strong analytical skills and the ability to work effectively with complex systems and tasks.</p>
+    </section>
 
-        <div class="section profile">
-            <h2>Profile</h2>
-            <p>An IT professional with a background in channels project roles is sought. Expertise has been developed in utilizing advanced computer skills, including hardware, software, and Microsoft Office Suite. Proficiency has been demonstrated in IT support, video editing with Adobe Premiere Pro, database management, and word processing. Experience in educational television programs has been gained, along with strong analytical skills and the ability to work effectively with complex systems and tasks.</p>
-        </div>
+    <section>
+        <h2>Courses</h2>
+        <ul>
+            <li>International Computer Driving Licence (ICDL)</li>
+            <li>Windows</li>
+            <li>PowerPoint</li>
+            <li>Microsoft Word</li>
+            <li>Excel</li>
+            <li>Adobe Premiere Pro</li>
+        </ul>
+    </section>
 
-        <div class="section work-experience">
-            <h2>Work Experience</h2>
-            <h3>Worked on Majd TV</h3>
-            <p>Achieved a supportive work environment for technical troubleshooting.<br>
-            Completed routine maintenance on video tape recorders.<br>
-            Led team meetings to discuss project updates.<br>
-            Managed inventory of IT equipment and supplies.<br>
-            Identified technical issues and provided solutions.</p>
+    <section>
+        <h2>Work Experience</h2>
+        <h3>Worked at Majd TV</h3>
+        <ul>
+            <li>Achieved a supportive work environment for technical troubleshooting.</li>
+            <li>Completed routine maintenance on video tape recorders.</li>
+            <li>Led team meetings to discuss project updates.</li>
+            <li>Managed inventory of IT equipment and supplies.</li>
+            <li>Identified technical issues and provided solutions.</li>
+        </ul>
 
-            <h3>IT at Madrasetna Educational Channel</h3>
-            <p>Achieved a conducive work environment to help meet project deadlines.<br>
-            Completed system troubleshooting for technical issues.<br>
-            Led training sessions for staff on software use.<br>
-            Managed software updates for educational tools.<br>
-            Identified user requirements for technology improvements.<br>
-            Evaluated IT infrastructure for performance efficiency.</p>
-        </div>
+        <h3>Worked IT at Madrasetna Educational Channel</h3>
+        <ul>
+            <li>Achieved a conducive work environment to help meet project deadlines.</li>
+            <li>Completed system troubleshooting for technical issues.</li>
+            <li>Led training sessions for staff on software use.</li>
+            <li>Managed software updates for educational tools.</li>
+            <li>Identified user requirements for technology improvements.</li>
+            <li>Evaluated IT infrastructure for performance efficiency.</li>
+        </ul>
+    </section>
 
-        <div class="section skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Problem-solving</li>
-                <li>Analytical thinking</li>
-                <li>Time management</li>
-                <li>Adaptability</li>
-                <li>Communication skills</li>
-                <li>Attention to detail</li>
-                <li>Proficient in IT Support and Project Management</li>
-                <li>Troubleshooting hardware and software issues</li>
-                <li>Managing and maintaining databases</li>
-                <li>Providing technical support to users</li>
-            </ul>
-        </div>
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li>Arabic: Native language</li>
+            <li>English: Good</li>
+        </ul>
+    </section>
+</div>
 
-        <div class="section courses">
-            <h2>Courses</h2>
-            <ul>
-                <li>International Computer Driving Licence (ICDL)</li>
-                <li>Windows</li>
-                <li>PowerPoint</li>
-                <li>Microsoft Word</li>
-                <li>Excel</li>
-                <li>Adobe Premiere Pro</li>
-            </ul>
-        </div>
-
-        <div class="section languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>Arabic: Native</li>
-                <li>English: Good</li>
-            </ul>
-        </div>
-    </div>
 </body>
 </html>
