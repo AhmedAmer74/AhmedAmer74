@@ -3,71 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youssef's CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Youssef Ahmed Hussein Mohamed - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            color: #34495e;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .skills-icons i {
+            margin-right: 10px;
+            color: #2980b9;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            margin: 5px 0;
+        }
+        .contact-icons i {
+            margin-right: 10px;
+            color: #e74c3c;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="profile-pic">
-            <img src="https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg" alt="Youssef's Profile Picture">
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg" alt="Profile Picture">
+            <div>
+                <h1>Youssef Ahmed Hussein Mohamed</h1>
+                <p>An IT professional with expertise in channels project roles, hardware and software skills, and IT support.</p>
+            </div>
         </div>
-        <h1>Youssef Ahmed Hussein Mohamed</h1>
-        <p>An IT professional with a background in channels project roles.</p>
-    </header>
-    <section id="contact-info">
-        <h2>Contact Information</h2>
-        <ul>
-            <li><i class="fa fa-envelope"></i> Ya9260465@gmail.com</li>
-            <li><i class="fa fa-phone"></i> +20 1554759154</li>
-            <li><i class="fa fa-map-marker"></i> Obour City, Qalyubia</li>
-            <li>Date of Birth: 15/07/1999</li>
-        </ul>
-    </section>
-    <section id="summary">
-        <h2>Professional Summary</h2>
-        <p>An IT professional with expertise in utilizing advanced computer skills, including hardware, software, and Microsoft Office Suite. Proficiency in IT support, video editing (Adobe Premiere Pro), database management, and word processing. Experienced in educational TV programs, analytical skills, and working with complex systems.</p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Faculty of Commerce</strong>, Helwan University (2021) - Overall rating: Good</li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Problem-solving</li>
-            <li>Analytical thinking</li>
-            <li>Time management</li>
-            <li>Adaptability</li>
-            <li>Communication skills</li>
-            <li>IT Support & Project Management</li>
-            <li>Troubleshooting hardware/software issues</li>
-            <li>Database management</li>
-        </ul>
-    </section>
-    <section id="work-experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>Majd TV</strong> - Technical support, troubleshooting, and team leadership.</li>
-            <li><strong>Madrasetna Educational Channel</strong> - System troubleshooting, software updates, and IT infrastructure evaluation.</li>
-        </ul>
-    </section>
-    <section id="courses">
-        <h2>Courses</h2>
-        <ul>
-            <li>ICDL (International Computer Driving License)</li>
-            <li>Microsoft Office: Word, Excel, PowerPoint</li>
-            <li>Adobe Premiere Pro</li>
-        </ul>
-    </section>
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>Arabic: Native</li>
-            <li>English: Good</li>
-        </ul>
-    </section>
+
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p><i class="fas fa-envelope contact-icons"></i>Email: Ya9260465@gmail.com</p>
+            <p><i class="fas fa-phone contact-icons"></i>Phone: +20 1554759154</p>
+            <p><i class="fas fa-map-marker-alt contact-icons"></i>Address: Obour City, Qalyubia</p>
+            <p><i class="fas fa-birthday-cake contact-icons"></i>Date of Birth: 15/07/1999</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>
+                An IT professional with a background in channels project roles is sought. Expertise has been developed 
+                in utilizing advanced computer skills, including hardware, software, and Microsoft Office Suite. Proficiency 
+                has been demonstrated in IT support, video editing with Adobe Premiere Pro, database management, 
+                and word processing. Experience in educational television programs has been gained, along with strong 
+                analytical skills and the ability to work effectively with complex systems and tasks.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Faculty of Commerce, Helwan University</strong></p>
+            <p>Graduation Year: 2021</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><i class="fas fa-laptop-code skills-icons"></i>Problem-solving</li>
+                <li><i class="fas fa-lightbulb skills-icons"></i>Analytical Thinking</li>
+                <li><i class="fas fa-clock skills-icons"></i>Time Management</li>
+                <li><i class="fas fa-sync-alt skills-icons"></i>Adaptability</li>
+                <li><i class="fas fa-comments skills-icons"></i>Communication Skills</li>
+                <li><i class="fas fa-search skills-icons"></i>Attention to Detail</li>
+                <li><i class="fas fa-tools skills-icons"></i>IT Support and Project Management</li>
+                <li><i class="fas fa-database skills-icons"></i>Database Management</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Majd TV</strong></p>
+            <ul>
+                <li>Supported technical troubleshooting.</li>
+                <li>Completed routine maintenance on video tape recorders.</li>
+                <li>Led team meetings for project updates.</li>
+                <li>Managed IT equipment inventory.</li>
+            </ul>
+            <p><strong>Madrasetna Educational Channel</strong></p>
+            <ul>
+                <li>Managed system troubleshooting for technical issues.</li>
+                <li>Led staff training on software usage.</li>
+                <li>Evaluated IT infrastructure for performance.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Courses</h2>
+            <p>International Computer Driving License (ICDL), Microsoft Office, Adobe Premiere Pro</p>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <p>Arabic: Native</p>
+            <p>English: Good</p>
+        </div>
+    </div>
 </body>
 </html>
